@@ -1,6 +1,6 @@
 # Project 1
 + By: *Jeremiah Azurin*
-+ Production URL: <http://p1.jae2.men.com>
++ Production URL: <http://p1.jae2.me.com>
 
 ## Outside resources
 n/a
