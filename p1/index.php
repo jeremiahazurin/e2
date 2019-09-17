@@ -26,7 +26,7 @@ k<!DOCTYPE html>
   <body>
     <h1>Jeremiah Azurin</h1>
 
-    <img src='images/cliff-pillow.jpg' alt='Picture of Cliff'>
+    <img src='images/cliff-pillow' alt='Picture of Cliff'>
 
     <h2>About Me</h2>
     <p>
