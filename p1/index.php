@@ -1,9 +1,26 @@
-<!DOCTYPE html>
-<html lang=en>
+k<!DOCTYPE html>
+<html lang='en'>
 
   <head>
-    <title>Hello!</title>
+
+    <title>Jeremiah Azurin</title>
     <meta charset='utf-8'>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <style>
+      .container {
+        width: 350px;
+        margin: auto;
+        text-align: center;
+      }
+
+      img {
+        width: 400px;
+      }
+
+    </style>
+
   </head>
 
   <body>
