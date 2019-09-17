@@ -10,7 +10,7 @@
     <div class='container'>
       <h1>Jeremiah Azurin</h1>
 
-      <img src='images/Cliff-Desktop.jpg' alt='Picture of Cliff'>
+      <img src='images/cliff-pillow.jpg' alt='Picture of Cliff'>
 
       <h2>About Me</h2>
       <p>
