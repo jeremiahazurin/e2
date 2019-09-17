@@ -12,7 +12,7 @@
 
     <h1>Jeremiah Azurin</h1>
 
-    <img src='images/john-gosier.jpg' alt='Photo of John Gosier'>
+    <img src='images/cliff-pillow' alt='Picture of Cliff'>
 
     <h2>About Me</h2>
     <p>
