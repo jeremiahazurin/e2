@@ -18,7 +18,7 @@
 		<ul>
 			<li> Player 1 chooses <?php echo $p1; ?> </li>
 			<li> Player 2 chooses <?php echo $p2; ?> </li>
-			<li> The winner is <?php echo $winner; ?></li>
+			<li> <?php echo $winner; ?></li>
 		</ul>
 </body>
 </html>
