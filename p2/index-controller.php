@@ -10,6 +10,7 @@ $shoot = $moves[rand(0, 2)];
 
 if($p1 == $p2) {
     var_dump('Tie');
+    $winner = "Tie";
 } elseif($p1 =='rock' and $p2 =='scissors'){
     var_dump('P1 wins');
 } elseif($p1 =='rock' and $p2 == 'paper') {
