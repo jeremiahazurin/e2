@@ -16,7 +16,7 @@
     * If P1`Paper` and P2 is `scissors`, then P2 wins 
     * If P1 is `Scissors` and P2 is `paper`, then P1 wins 
     * If P1 is `Scissors` and P2 is `rock`, then P2 wins 
-    * Declare a winner
+    * Declare a winner or a tie
 
 ## Outside resources
 
