@@ -14,8 +14,7 @@
 		<ul>
 			<li> Player 1 chooses <?php echo $p1; ?> </li>
 			<li> Player 2 chooses <?php echo $p2; ?> </li>
-			<li> The winning choice is <?php echo $shoot; ?> </li>
-			<li> The winner chose <?php echo $p1; ?></li>
+			<li> The winner chose <?php echo $winner; ?></li>
 		</ul>
 </body>
 </html>
