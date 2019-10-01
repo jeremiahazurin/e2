@@ -6,7 +6,7 @@ $moves = ['rock', 'paper', 'scissors'];
 $p1 =$moves[rand(0,2)];
 $p2 =$moves[rand(0,2)];
 
-$winner = null;
+$shoot = $moves[rand(0, 2)];
 
 if($p1 == $p2) {
     var_dump('Tie');
