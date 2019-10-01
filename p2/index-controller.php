@@ -1,7 +1,7 @@
 <?php
 // var_dump($p1);
 // var_dump($p2);
-
+$winner = null;
 $moves = ['rock', 'paper', 'scissors'];
 $p1 =$moves[rand(0,2)];
 $p2 =$moves[rand(0,2)];
