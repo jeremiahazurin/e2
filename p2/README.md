@@ -10,12 +10,13 @@
     * Repeat for P2 
 * Create chained if-elseif statements and printing winners/tie
     * If P1 move is equal to P2, then there is a tie
-    * If P1 is `Rock`and P2 is `scissors`, then P1 wins using elseif conditional
-    * If P1 is `Rock` and P2 is `paper`, then P2 wins using elseif conditional
-    * If P1`Paper` and P2 is `rock`, then P1 wins using elseif conditional
-    * If P1`Paper` and P2 is `scissors`, then P2 wins using elseif conditional
-    * If P1 is `Scissors` and P2 is `paper`, then P1 wins using elseif conditional
-    * If P1 is `Scissors` and P2 is `rock`, then P2 wins using elseif conditional
+    * If P1 is `Rock`and P2 is `scissors`, then P1 wins 
+    * If P1 is `Rock` and P2 is `paper`, then P2 wins 
+    * If P1`Paper` and P2 is `rock`, then P1 wins 
+    * If P1`Paper` and P2 is `scissors`, then P2 wins 
+    * If P1 is `Scissors` and P2 is `paper`, then P1 wins 
+    * If P1 is `Scissors` and P2 is `rock`, then P2 wins 
+    * Declare a winner
 
 ## Outside resources
 
