@@ -1,4 +1,4 @@
-<?php require 'index-controller.php; ?>'
+<?php require 'index-controller.php'; ?>
 <!DOCTYPE html>
 <html lang='en'>
 <head>
