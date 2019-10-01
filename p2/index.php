@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>Rock, Paper, Scissors Game</title>
 <meta charset='utf-8'>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<h1>Rock, Paper, Scissors</h1>
+<h2>Mechanics</h2>
+<h2>Results</h2>
 
 </body>
 </html>
