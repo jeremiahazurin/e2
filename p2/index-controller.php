@@ -19,7 +19,7 @@ if($p1 == $p2) {
     $winner = "P2";
 }  elseif($p1 =='paper' and $p2 == 'rock') {
     var_dump('P1 wins');
-    $winner = "P2";
+    $winner = "P1";
 }  elseif($p1 =='paper' and $p2 == 'scissors') {
     var_dump('P2 wins');
     $winner = "P2";
