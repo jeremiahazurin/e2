@@ -32,24 +32,17 @@ $shoot = $moves[rand(0, 2)];
 // }  
 
 if($p1 == $p2) {
-    var_dump('Tie');
     $winner = "Tie";
 } elseif($p1 =='rock' and $p2 =='scissors'){
-    var_dump('P1');
     $winner = "P1";
 } elseif($p1 =='rock' and $p2 == 'paper') {
-    var_dump('P2');
     $winner = "P2";
 }  elseif($p1 =='paper' and $p2 == 'rock') {
-    var_dump('P1');
     $winner = "P1";
 }  elseif($p1 =='paper' and $p2 == 'scissors') {
-    var_dump('P2');
     $winner = "P2";
 }  elseif($p1 =='scissors' and $p2 == 'paper') {
-    var_dump('P1');
     $winner = "P1";
 }  elseif($p1 =='scissors' and $p2 == 'rock') {
-    var_dump('P2');
     $winner = "P2";
 }  
