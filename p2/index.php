@@ -7,7 +7,11 @@
 </head>
 <body>
 	<h1>Rock, Paper, Scissors</h1>
-	
+	<ul>
+			<li>Both Players 1 (P1) and 2 (P2) choose either rock, paper, or scissors at random </li>
+			<li>If both players choose the same item, then there is a tie.</li>
+			<li> In the event that there isn't a tie, rock beats paper, paper beats rock, and rock beats scissors. 
+		</ul>
 	<h2>Mechanics</h2>
 
 		<h2>Results</h2>
