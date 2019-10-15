@@ -22,14 +22,14 @@
       <h2>Play</h2>
 
       <p>Choose your item: </p>
-      <label>
+      <label for='Rock'>Rock</label>
       <input type='radio' name='choice' id='Rock'>
-      "Rock"
+
+      <label for='Paper'>Paper</label>
       <input type='radio' name='choice' id='Paper'>
-      "Paper"
+
+      <label for='Scissors'>Scissors</label>
       <input type='radio' name='choice' id='Scissors'>
-      "Scissors"
-      </label>
 
       <button type='submit'>Go</button>
     </form>
