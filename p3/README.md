@@ -5,11 +5,9 @@
 ## Game planning
 * Define winner variable as null
 * Player (P1) selects either rock, paper, or scissors
-    * Assign items (option) to items: rock, paper, and scissors in HTML (index)
-    *  Add `submit` button
-* Create process file
-
-* Create chained if-elseif statements and printing winners/tie
+    * Assign items (value) to items: rock, paper, and scissors in HTML (index)
+    *  Add `submit` button    
+* Create chained if-elseif statements and printing winners/tie (process)
     * If P1 move is equal to P2, then there is a tie
     * If P1 is `Rock`and P2 is `scissors`, then P1 wins 
     * If P1 is `Rock` and P2 is `paper`, then P2 wins 

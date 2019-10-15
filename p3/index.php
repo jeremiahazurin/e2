@@ -10,25 +10,28 @@
 
   <body>
 
+    <h1>Rock, Paper, Scissors</h1>
+
+    <h2>Instructions</h2>
+
+    <ul>
+      <li>Choose either rock, paper, or scissors and then click "Go"</li>
+      <li>We will select one of the three, too.</li>
+    </ul>
+
+    <h2>Play</h2>
     <form method='GET' action='process.php'>
-      <h1>Rock, Paper, Scissors</h1>
 
-      <h2>Instructions</h2>
-      <ul>
-        <li>Choose either rock, paper, or scissors and then click "Go"</li>
-        <li>We will select one of the three, too.</li>
-      </ul>
+      <input type='radio' value='rock' id='rock' name='choice'>
+      <label for='rock'> Rock </label> <br/>
 
-      <h2>Play</h2>
-      <label for='item'>Choose your item</label>
-    <select id='item' name='item'>
-    <option>Pick</option>
-    <option>Rock</option>
-    <option>Paper</option>
-    <option>Scissors</option>
-    </select>
-    
-    <button type='submit'>Go</button>
+      <input type='radio' value='paper' id='paper' name='choice'>
+      <label for='paper'> Paper </label> <br/>
+
+      <input type='radio' value='scissors' id='scissors' name='choice'>
+      <label for='scissors'> Scissors </label> <br/>
+
+      <button type='submit'>Go</button>
 
     </form>
   </body>
