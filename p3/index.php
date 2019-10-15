@@ -2,16 +2,14 @@
 <html>
 <head>
 
-    <title>My Web Site</title>
+    <title>Rock, Paper, Scissors 2</title>
     <meta charset='utf-8'>
-
-    <!-- page config goes here in the head -->
 
 </head>
 <body>
 
 <form method='GET' action='process.php'>
-    <h1>Word Scramble</h1>
+    <h1>Rock, Paper, Scissors</h1>
 
     <p>Mystery word: kiumppn</p>
     <p>Hint: Halloween’s favorite fruit</p>
