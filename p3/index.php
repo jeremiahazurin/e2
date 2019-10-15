@@ -11,8 +11,12 @@
 <form method='GET' action='process.php'>
     <h1>Rock, Paper, Scissors</h1>
 
-    <p>Mystery word: kiumppn</p>
-    <p>Hint: Halloween’s favorite fruit</p>
+    <h2>Instructions</h2>
+    <ul>
+			<li>Choose either rock, paper, or scissors and then click "Go"</li>
+            <li>We will select one of the three, too.</li>
+
+	</ul>
 
     <label for='answer'>Your guess:</label>
     <input type='text' name='answer' id='answer'>
