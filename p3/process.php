@@ -23,5 +23,5 @@ if($p1 == $p2){
     echo 'Win';
     }
 
-$_SESSION[' '] = $correct;
+$_SESSION['correct'] = $correct;
 header('Location: index.php');
