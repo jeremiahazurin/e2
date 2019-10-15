@@ -36,7 +36,13 @@
 
     </form>
 
-
+<?php if ($showResults) { ?>
+  <?php if ($results['winner']) { ?>
+    You won
+  <?php } else {?>
+    You lost
+  <?php } ?>
+<?php } ?>
 
   </body>
 
