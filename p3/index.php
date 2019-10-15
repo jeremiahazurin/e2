@@ -1,3 +1,4 @@
+<?php require 'index-controller.php'; ?>
 <!DOCTYPE html>
 <html lang='en'>
 
@@ -34,6 +35,14 @@
       <button type='submit'>Go</button>
 
     </form>
+    <? if($showResults) { ?>
+    <?php if ($correct) { ?>
+    Correct
+    <?php } else { ?>
+    Incorrect 
+    <?php } ?>
+    <?php } ?>
+
   </body>
 
 </html>
