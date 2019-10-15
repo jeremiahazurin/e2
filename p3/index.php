@@ -48,6 +48,12 @@
   <?php } ?>
 <?php } ?>
 
+
+<?php if ($showResults) { ?>
+  <?php if(results['winner']) {?>
+  you won<?php } else { ?>
+  You lost<?php } ?> 
+  <?php } ?> 
   </body>
 
 </html>
