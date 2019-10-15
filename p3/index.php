@@ -1,27 +1,38 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang='en'>
+
+  <head>
 
     <title>Rock, Paper, Scissors 2</title>
     <meta charset='utf-8'>
 
-</head>
-<body>
+  </head>
 
-<form method='GET' action='process.php'>
-    <h1>Rock, Paper, Scissors</h1>
+  <body>
 
-    <h2>Instructions</h2>
-    <ul>
-			<li>Choose either rock, paper, or scissors and then click "Go"</li>
-            <li>We will select one of the three, too.</li>
+    <form method='GET' action='process.php'>
+      <h1>Rock, Paper, Scissors</h1>
 
-	</ul>
+      <h2>Instructions</h2>
+      <ul>
+        <li>Choose either rock, paper, or scissors and then click "Go"</li>
+        <li>We will select one of the three, too.</li>
+      </ul>
 
-    <label for='answer'>Your guess:</label>
-    <input type='text' name='answer' id='answer'>
+      <h2>Play</h2>
 
-    <button type='submit'>Check answer</button>
-</form>
-</body>
-</html> 
+      <p>Choose your item: </p>
+      <label>
+      <input type='radio' name='choice' id='Rock'>
+      "Rock"
+      <input type='radio' name='choice' id='Paper'>
+      "Paper"
+      <input type='radio' name='choice' id='Scissors'>
+      "Scissors"
+      </label>
+
+      <button type='submit'>Go</button>
+    </form>
+  </body>
+
+</html>
