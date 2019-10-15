@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 if(isset($_SESSION['correct'])) {
     $correct = $_SESSION['correct'];
     $showResults = true;
