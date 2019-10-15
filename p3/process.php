@@ -2,6 +2,7 @@
 session_start();
 
 if($_GET['p1']){
+    $winner = null;
     $moves = array(Rock, Paper, Scissors);
     $moves = rand(0,2);
     $p1 = $_GET['p1'];
@@ -23,6 +24,12 @@ if($p1 == $p2){
     }  elseif($p1 == 'Scissors' and $p2 == 'Paper'){
     echo 'Win';
     }
+
+$results = [
+    'winner' => $winner,
+    'moves' => $moves,
+    'choice' => $choose,
+];
 
 $_SESSION['correct'] = $correct;
 header('Location: index.php');
