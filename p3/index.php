@@ -20,8 +20,6 @@
       </ul>
 
       <h2>Play</h2>
-
-      <p>Choose your item: </p>
       <label for='item'>Choose your item</label>
     <select id='item' name='item'>
     <option>Pick</option>
@@ -29,6 +27,9 @@
     <option>Paper</option>
     <option>Scissors</option>
     </select>
+    
+    <button type='submit'>Go</button>
+
     </form>
   </body>
 
