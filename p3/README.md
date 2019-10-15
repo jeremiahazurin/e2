@@ -4,10 +4,11 @@
 
 ## Game planning
 * Define winner variable as null
-* Player  (P1) selects either rock, paper, or scissors
-    * Define array of moves: rock, paper, and scissors
-    * Extract P1 move using rand function to choose key: 0, 1, or 2
-    * Repeat for Player 2 (P2) 
+* Player (P1) selects either rock, paper, or scissors
+    * Assign items (option) to items: rock, paper, and scissors in HTML (index)
+    *  Add `submit` button
+* Create process file
+
 * Create chained if-elseif statements and printing winners/tie
     * If P1 move is equal to P2, then there is a tie
     * If P1 is `Rock`and P2 is `scissors`, then P1 wins 
