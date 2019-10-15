@@ -37,7 +37,7 @@
     </form>
 
 <?php if ($showResults) { ?>
-  P1 chose: <?php echo $results['moves']; ?>
+  P1 chose: <?php echo $results['choice']; ?>
   P2 chose: <?php echo $results['choose']; ?>
   }
 
@@ -47,13 +47,5 @@
     You lost
   <?php } ?>
 <?php } ?>
-
-
-<?php if ($showResults) { ?>
-  <?php if(results[$winner]) {?>
-  you won<?php } else { ?>
-  You lost<?php } ?> 
-  <?php } ?> 
-  </body>
 
 </html>

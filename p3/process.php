@@ -6,7 +6,7 @@ if($_GET["choice"]){
     $moves = array("Rock", "Paper", "Scissors");
     $moves = rand(0,2);
     $p1 = $_GET["choice"];
-    $p2 = $choose[$moves];
+    $p2 =$moves[rand(0,2)];
 }
 
 if($p1 == $p2){
@@ -35,8 +35,9 @@ if($p1 == $p2){
 $results = [
     "winner" => $winner,
     "moves" => $moves,
-    "choice" => $choose,
+    "choice" => $p2,
 ];
 
-$_SESSION["correct"] = $correct;
+
+$_SESSION["moves"] = $moves;
 header("Location: index.php");
