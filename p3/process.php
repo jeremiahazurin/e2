@@ -34,7 +34,7 @@ if($p1 == $p2){
 $results = [
     "winner" => $winner,
     "moves" => $moves,
-    "choice" => $p2,
+    "choice" => $choice,
 ];
 
 
