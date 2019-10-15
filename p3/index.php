@@ -23,13 +23,13 @@
 
       <p>Choose your item: </p>
       <label for='Rock'>Rock</label>
-      <input type='radio' name='choice' id='Rock'>
+      <input type='radio' name='choice' value='Rock'>
 
       <label for='Paper'>Paper</label>
-      <input type='radio' name='choice' id='Paper'>
+      <input type='radio' name='choice' value='Paper'>
 
       <label for='Scissors'>Scissors</label>
-      <input type='radio' name='choice' id='Scissors'>
+      <input type='radio' name='choice' value='Scissors'>
 
       <button type='submit'>Go</button>
     </form>
