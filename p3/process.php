@@ -6,6 +6,7 @@ if($_GET['p1']){
     $moves = rand(0,2);
     $p1 = $_GET['p1'];
     $p2 = $choose[$moves];
+}
 
 if($p1 == $p2){
     echo 'Tie';
