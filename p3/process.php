@@ -9,33 +9,33 @@ if($_GET["choice"]){
 }
 
 if($p1 == $p2){
-    echo ("Tie");
-    $winner = ("Tie!");
+    var_dump('Tie');
+    $winner = "There was a tie!";
     } elseif($p1 == "rock" and $p2 == "scissors"){
-    echo ("Win");
-    $winner = "You won!";
+    var_dump('P1 wins');
+    $winner = "The winner is P1";
     } elseif($p1 == "rock" and $p2 == "paper"){
-    echo ("Lose");
-    $winner = "You lost";
+    var_dump('P2 wins');
+    $winner = "The winner is P2";
     }  elseif($p1 == "paper" and $p2 == "rock"){
-    echo ("Win");
-    $winner = "You won!";
+    var_dump('P1 wins');
+    $winner = "The winner is P1";
     } elseif($p1 == "paper" and $p2 == "scissors"){
-    echo ("Lose");
-    $winner = "You lost";
+    var_dump('P2 wins');
+    $winner = "The winner is P2";
     }  elseif($p1 == "scissors" and $p2 == "rock"){
-    echo ("Lose");
-    $winner = "You lost";
+    var_dump('P2 wins');
+    $winner = "The winner is P2";
     }  elseif($p1 == "scissors" and $p2 == "paper"){
-    echo ("Win");
-    $winner = ("You won!");}
+    var_dump('P1 wins');
+    $winner = "The winner is P1";}
 
 
-$results = [
-    "winner" => $winner,
-    "move" => $move,
-    "choice" => $choice,
-];
-
-$_SESSION["results"] = $winner;
-header("Location: index.php");
+    $results = [
+        "winner" => $winner,
+        "p1" => $p1,
+        "p2" => $p2,
+    ];
+    
+    $_SESSION["results"] = $results;
+    header("Location: index.php");

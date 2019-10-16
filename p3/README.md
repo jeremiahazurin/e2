@@ -7,7 +7,7 @@
 * Player (P1) selects either rock, paper, or scissors
     * Assign items (value) to items: rock, paper, and scissors in HTML (index)
     * Add `submit` button
-    * Define winner (correct)    
+    * Define winner (results)    
 * Create chained if-elseif statements and printing winners/tie (process)
     * If P1 move is equal to P2, then there is a tie
     * If P1 is `Rock`and P2 is `scissors`, then P1 wins 
