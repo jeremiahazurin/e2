@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-if(isset($_SESSION['correct'])) {
-    $correct = $_SESSION['correct'];
+if(isset($_SESSION['results'])) {
+    $correct = $_SESSION['results'];
     $showResults = true;
-    $_SESSION['correct'] = null;
+    $_SESSION['results'] = null;
 } else {
     $showResults = false;
 }
