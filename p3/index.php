@@ -36,7 +36,7 @@
 
     </form>
     <?php if ($showResults) { ?>
-    P1 chose: <?php echo $results['moves']; ?>
+    P1 chose: <?php echo $results["move"]; ?>
     P2 chose: <?php echo $results['choice']; ?>
     }
 
