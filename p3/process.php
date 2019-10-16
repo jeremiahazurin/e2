@@ -37,5 +37,5 @@ $results = [
     "choice" => $choice,
 ];
 
-$_SESSION["correct"] = $winner;
+$_SESSION["results"] = $winner;
 header("Location: index.php");

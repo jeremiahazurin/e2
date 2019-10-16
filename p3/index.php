@@ -35,7 +35,6 @@
       <button type='submit'>Go</button>
 
     </form>
-
     <?php if ($showResults) { ?>
     P1 chose: <?php echo $results['moves']; ?>
     P2 chose: <?php echo $results['choice']; ?>
