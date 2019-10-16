@@ -31,7 +31,7 @@ if($p1 == $p2){
     $winner = ("You won!");}
 
 
-$dog = [
+$results = [
     "winner" => $winner,
     "moves" => $moves,
     "choice" => $choice,
