@@ -39,9 +39,9 @@
     <ul>
       <li>P1 chose: <?php echo $results['p1']; ?></li>
       <li>P2 chose: <?php echo $results['p2']; ?></li>
-      
+
       <?php if ($results['winner']) { ?>
-        <li> <?php echo $results['winner']; ?></li>
+      <li> <?php echo $results['winner']; ?></li>
       <?php } else {?>
       <li>You lost!</li>
       <?php } ?>
