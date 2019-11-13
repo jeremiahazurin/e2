@@ -7,7 +7,7 @@ class ProductController extends Controller
 {
     public function index()
     {
-        $products = new Products('database/products.json');
-        return 'Show all the products here...';
+        $products = new Products($this->app-path('database/products.json'));
+        return $this->app->view('products.index');
     }
 }
