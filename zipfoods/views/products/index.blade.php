@@ -3,5 +3,5 @@
 {{ $app->config('app.name') }}
 @endsection
 @section('content')
-<h2>All Products</h2>
+test
 @endsection
