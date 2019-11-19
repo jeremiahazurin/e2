@@ -9,11 +9,11 @@ All Products
 
 <div id='product-index'>
     @foreach($products as $product)
-    <a href='/product?id={{ $product[' id'] }}'>
-        <div class='product'>
-            <div class='product-name'>{{ $product['name'] }}</div>
-            <img class='product-thumb' src="/images/products/{{ $product['id'] }}.jpg">
-        </div>
+    <a href='/product?id={{ $product["id"] }}' />
+    <div class='product'>
+        <div class='product-name'>{{ $product['name'] }}</div>
+        <img class='product-thumb' src="/images/products/{{ $product['id'] }}.jpg">
+    </div>
     </a>
     @endforeach
 </div>
