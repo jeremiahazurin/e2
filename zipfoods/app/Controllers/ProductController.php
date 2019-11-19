@@ -21,6 +21,9 @@ class ProductController extends Controller
     public function show()
     {
         $id = $this->app->param('id');
+        if (is_null($id)) {
+            $this->app->redirect('/products');
+        }
         $product = $this->products->getById($id);
 
         if (is_null($product)) {
