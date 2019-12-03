@@ -1,0 +1,10 @@
+$this->app->db()->insert('newproducts, $data) 
+$data = [
+    'name' => $name,
+    'description' => $description,
+    'price' => $price,
+    'available' => $available,
+    'weight' => $weight,
+    'perishable' => $prperishableice,
+];
+
