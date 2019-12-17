@@ -10,7 +10,7 @@ List of Registrants Here
 <ul>
     @foreach($apps as $app)
 
-    <li>{{ $app['title']}}</li>
+    <li>{{ $app['title'] }}</li>
 
     @endforeach
 </ul>
