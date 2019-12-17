@@ -13,8 +13,8 @@ class AppController extends Controller
 
     public function list()
     {
-        $app = ($this->app->db()->all('users'));
-        return $this->app->view('list', ['app' => $app]);
+        $apps = ($this->app->db()->all('users'));
+        return $this->app->view('list', ['apps' => $apps]);
     }
 
     public function details()

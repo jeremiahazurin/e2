@@ -7,4 +7,12 @@ User List Page
 @section('content')
 
 List of Registrants Here
+<ul>
+    @foreach($apps as $app)
+
+    <li>{{ $app['title']}}</li>
+
+    @endforeach
+</ul>
+
 @endsection
