@@ -8,10 +8,16 @@ class AppController extends Controller
      */
     public function index()
     {
-        $welcomes = ['Welcome', 'Aloha!', 'Welkom', 'Bienvenidos', 'Bienvenu', 'Welkomma'];
-        
-        return $this->app->view('index', [
-            'welcome' => $welcomes[array_rand($welcomes)]
-        ]);
+        return $this->app->view('index');
+    }
+
+    public function list()
+    {
+        return $this->app->view('list');
+    }
+
+    public function details()
+    {
+        return $this->app->view('details');
     }
 }
