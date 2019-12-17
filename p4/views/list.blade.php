@@ -8,9 +8,9 @@ User List Page
 
 List of Registrants Here
 <ul>
-    @foreach($apps as $app)
+    @foreach($apps as $thisApp)
 
-    <li>{{ $app['title'] }}</li>
+    <li>{{ $thisApp['title'] }}</li>
 
     @endforeach
 </ul>
