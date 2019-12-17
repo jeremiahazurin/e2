@@ -5,7 +5,8 @@ User Details Page
 @endsection
 
 @section('content')
-
 User Details here
+
+{{ dump($app)}}
 
 @endsection
