@@ -37,9 +37,7 @@ class AppController extends Controller
     {
         $userId = $this->app->param('id');
 
-        $apps = $this->app->db()->findbyId('users', $userId);
-        dump($userId);
-
-        return $this->app->view('details');
+        $thisApp = $this->app->db()->findById('users', $userId);
+        return $this->app->view('users', ['users' => $thisApp]);
     }
 }
