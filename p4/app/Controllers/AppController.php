@@ -16,7 +16,7 @@ class AppController extends Controller
     {
         $this->app->validate([
             'title' => 'required',
-            'content' => 'required|email',
+            'content' => 'required',
         ]);
         $data = [
             'title' => $this->app->input('title'),
@@ -35,6 +35,11 @@ class AppController extends Controller
 
     public function details()
     {
+        $userId = $this->app->param('id');
+
+        $apps = $this->app->db()->findbyId('users', $userId);
+        dump($userId);
+
         return $this->app->view('details');
     }
 }
