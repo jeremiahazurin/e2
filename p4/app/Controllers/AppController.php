@@ -8,7 +8,23 @@ class AppController extends Controller
      */
     public function index()
     {
-        return $this->app->view('index');
+        $newTitle =$this->app->old('newTitle', null);
+        return $this->app->view('index', ['newTitle' => $newTitle]);
+    }
+
+    public function saveNewApplicants()
+    {
+        $this->app->validate([
+            'title' => 'required',
+            'content' => 'required|email',
+        ]);
+        $data = [
+            'title' => $this->app->input('title'),
+            'content' => $this->app->input('content'),
+        ];
+        $this->app->db()->insert('users', $data);
+
+        $this->app->redirect('/', ['newTitle' => $data['title']]);
     }
 
     public function list()
