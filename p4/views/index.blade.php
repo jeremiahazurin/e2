@@ -29,7 +29,7 @@ Thank you for signing up {{$newTitle}}!
 </h3>
 <form method='POST' action='/save-new-applicants'>
     <label for='title'> Name:</label>
-    <input type='text' id='title' name='title' value='{{$app->old(' title')}}'>
+    <input type='text' id='title' name='title' value='{{$app->old(" title")}}'>
     </br></br>
 
     <label for='content'> Email:</label>
