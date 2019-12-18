@@ -35,8 +35,6 @@ class AppController extends Controller
 
     public function details()
     {
-        $thisAppId = $this->app->param('id');
-        $post = $this->app->db()->findbyId('users', $usersId);
         return $this->app->view('details');
     }
 }
