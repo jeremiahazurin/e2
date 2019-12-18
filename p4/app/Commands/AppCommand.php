@@ -11,7 +11,7 @@ class AppCommand extends Command
 
     public function migrate()
     {
-        $this->app->db()->createTable('Users', [
+        $this->app->db()->createTable('users', [
             'title' => 'varchar(255)',
             'content' => 'text',
 
